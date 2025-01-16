@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  @media (max-width: 768px) {}
+    /* Ajuste para telas menores (tablets e celulares) */
+    .container {
+        padding: 15px;
+        width: 85%; /* Reduz a largura do formulário */
+    }
+
+.logo {
+    width: 300px; /* Ajusta o tamanho da logo */
+    position: absolute; /* Faz a logo "flutuar" sobre o container */
+    top: -60px; /* Mova a logo para cima do formulário */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Corrige o alinhamento para centralizar */
+}
+
+
+video,
+.img-beauty {
+    width: 100%;
+    /*largura*/
+    height: 100%;
+    /*altura*/
+    position: absolute;
+    /* posicionar intem numa posição exata que eu desejar*/
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(60%);
+
+}
+
+icon {
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+
+}
+.social-icons {
+    position: absolute;
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+
+
+}
+
+.icon {
+    width: 50px; /* Ajusta o tamanho da logo */
+     margin-top: 350px; /* Muda a posição para baixo */
+    left: 50%; /* Centraliza horizontalmente */
+    
+}
+
+.rodape {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  font-size: 14px; /* Ajuste o tamanho da fonte para dispositivos menores */
+
+
+}
+.texto-rodape {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    height: 100vh; /* Faz o body ocupar toda a altura da tela */ 
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ajusta o tamanho do formulário em dispositivos menores */
+    max-width: 400px; /* Limita a largura máxima em telas maiores */
+    text-align: center; /* Centraliza o conteúdo do formulário */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+@media (max-width: 480px) {}
+    /* Ajustes para telas menores (celulares) */
+    .container {
+        padding: 10px;
+        width: 90%; /* Ocupa quase toda a largura da tela */
+    }
+    input[type="text"],
+    input[type="tel"] {
+        font-size: 12px; /* Ajusta a fonte para dispositivos menores */ 
+    }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5f09d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b00b0;
+}
+
+
+
+
